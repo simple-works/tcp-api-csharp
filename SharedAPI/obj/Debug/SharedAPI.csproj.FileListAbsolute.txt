@@ -1,0 +1,4 @@
+C:\Users\Abdelhakim\Desktop\Networking and TCP-IP Course\SharedAPI\bin\Debug\SharedAPI.dll
+C:\Users\Abdelhakim\Desktop\Networking and TCP-IP Course\SharedAPI\bin\Debug\SharedAPI.pdb
+C:\Users\Abdelhakim\Desktop\Networking and TCP-IP Course\SharedAPI\obj\Debug\SharedAPI.dll
+C:\Users\Abdelhakim\Desktop\Networking and TCP-IP Course\SharedAPI\obj\Debug\SharedAPI.pdb

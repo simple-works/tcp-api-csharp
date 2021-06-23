@@ -1,0 +1,7 @@
+C:\Users\Abdelhakim\Desktop\TCP API\Client\bin\Release\Client.exe
+C:\Users\Abdelhakim\Desktop\TCP API\Client\bin\Release\Client.pdb
+C:\Users\Abdelhakim\Desktop\TCP API\Client\bin\Release\SharedAPI.dll
+C:\Users\Abdelhakim\Desktop\TCP API\Client\bin\Release\SharedAPI.pdb
+C:\Users\Abdelhakim\Desktop\TCP API\Client\obj\x86\Release\Client.csprojResolveAssemblyReference.cache
+C:\Users\Abdelhakim\Desktop\TCP API\Client\obj\x86\Release\Client.exe
+C:\Users\Abdelhakim\Desktop\TCP API\Client\obj\x86\Release\Client.pdb
