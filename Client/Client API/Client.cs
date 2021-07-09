@@ -13,6 +13,7 @@ namespace Client
 
         public static void Connect(string ip, int port)
         {
+            ClientLog.ClientConnecting(ip, port);
             _client.Connect(ip, port);
             ClientLog.ClientConnected(_client.LocalIP, _client.LocalPort,
                 _client.RemoteIP, _client.RemotePort);
@@ -26,7 +27,7 @@ namespace Client
 
         public static void Close()
         {
-            _client.Close();
+            if (_client != null) _client.Close();
             ClientLog.ClientClosed();
         }
     }

@@ -56,9 +56,8 @@ namespace Server
 
         public void Stop()
         {
-            _tcpListener.Stop();
-            _acceptedTcpClient.GetStream().Close();
-            _acceptedTcpClient.Close();
+            if (_tcpListener != null) _tcpListener.Stop();
+            if (_acceptedTcpClient != null) _acceptedTcpClient.Close();
         }
     }
 }

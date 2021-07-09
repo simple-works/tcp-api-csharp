@@ -33,7 +33,7 @@ namespace Server
 
         public static void Stop()
         {
-            _listener.Stop();
+            if (_listener != null) _listener.Stop();
             ServerLog.ServerStopped();
         }
     }

@@ -13,7 +13,11 @@ namespace Client
         public static void ClientCreated(string ip, int port)
         {
             Log.Note("New client created as Client@{0}:{1}.", ip, port);
-            Log.Warning("Connecting...");
+        }
+
+        public static void ClientConnecting(string ip, int port)
+        {
+            Log.Warning("Connecting to {0}:{1}...", ip, port);
         }
 
         public static void ClientConnected(string localIP, int localPort,

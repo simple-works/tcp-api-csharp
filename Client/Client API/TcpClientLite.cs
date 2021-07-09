@@ -37,7 +37,7 @@ namespace Client
 
         public void Close()
         {
-            _tcpClient.Close();
+            if (_tcpClient != null) _tcpClient.Close();
         }
     }
 }
